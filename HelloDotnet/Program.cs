@@ -42,6 +42,13 @@ namespace HelloWorld
         long numLong = 15000000000L; // numeric long data type
         Console.WriteLine("My long numeric data type: " + numLong);
         
+        // Boolean Data Type
+        bool isTRue = true;
+        bool is_False = false;
+
+        Console.WriteLine(isTRue);
+        Console.WriteLine(is_False);
+
     }
     }
 
