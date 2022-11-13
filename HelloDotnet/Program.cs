@@ -72,9 +72,30 @@ namespace HelloWorld
         Console.WriteLine(Convert.ToString(myInt));
         Console.WriteLine(Convert.ToDouble(myInt));
         Console.WriteLine(Convert.ToInt32(myDouble));
-        Console.Write(Convert.ToString(myBool));
+        Console.WriteLine(Convert.ToString(myBool));
     
+        // User Input
 
+        // Type your username and press enter
+        Console.WriteLine("Enter username: ");
+
+        // Create a string variable and store user input from the keyboard and store it in the variable
+        string userName = Convert.ToString(Console.ReadLine());
+
+        //print the value of the variable to (userName), which will display the input value
+        Console.WriteLine("Username is: " + userName);
+
+        Console.WriteLine("Enter your age: ");
+        int age = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Your age is : " + age);
+
+        // Arethimetic Operator
+
+        Console.WriteLine("Enter a number to increament with");
+        int myIncreament = Convert.ToInt32(Console.ReadLine());
+        int mInt = 4;
+        int myTotal = ++myIncreament + mInt;
+        Console.WriteLine("My total number is : " + myTotal);
     }
     }
 
