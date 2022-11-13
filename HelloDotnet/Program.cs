@@ -49,6 +49,32 @@ namespace HelloWorld
         Console.WriteLine(isTRue);
         Console.WriteLine(is_False);
 
+        // Type Casting
+        int myIntCon = 6;
+        double myDoubleCon = myIntCon; //implicit casting
+
+        Console.WriteLine(myIntCon);
+        Console.WriteLine(myDoubleCon);
+
+        // explicit casting
+
+        double myDoublen = 9.2;
+        int doubleToInit = (int)myDoublen;
+
+        Console.WriteLine(myDoublen);
+        Console.WriteLine(doubleToInit);
+
+        // Type Conversion Methods
+        int myInt = 10;
+        double myDouble = 5.25;
+        bool myBool = true;
+
+        Console.WriteLine(Convert.ToString(myInt));
+        Console.WriteLine(Convert.ToDouble(myInt));
+        Console.WriteLine(Convert.ToInt32(myDouble));
+        Console.Write(Convert.ToString(myBool));
+    
+
     }
     }
 
